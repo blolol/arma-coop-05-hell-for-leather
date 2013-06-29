@@ -1,0 +1,25 @@
+class cfgFunctions {
+	class BLOL {
+		class markers {
+			class isInMarker {
+				description = "Returns true if the given position falls within the marker area.";
+			};
+		};
+
+		class units {
+			class attachToCow {
+				description = "Attach a gunner to his cow.";
+			};
+		};
+	};
+};
+
+class cfgSettings {
+	class CBA {
+		class Caching {
+			compile = 0;
+			xeh = 0;
+			functions = 0;
+		};
+	};
+};

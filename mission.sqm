@@ -1,0 +1,435 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"utes",
+		"cba_main",
+		"ca_modules_functions",
+		"caweapons_warfare_weapons",
+		"cacharacters2",
+		"camisc3"
+	};
+	addOnsAuto[]=
+	{
+		"cba_main",
+		"ca_modules_functions",
+		"caweapons_warfare_weapons",
+		"cacharacters2",
+		"camisc3",
+		"utes"
+	};
+	randomSeed=14197923;
+	class Intel
+	{
+		startWeather=0.39999998;
+		forecastWeather=0.25;
+		year=2013;
+		month=7;
+		day=4;
+		hour=12;
+		minute=0;
+	};
+	class Groups
+	{
+		items=7;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3132.425,28.818424,4356.7788};
+					azimut=-10.675919;
+					id=1;
+					side="LOGIC";
+					vehicle="CBA_main_require";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3134.9905,28.879711,4343.7583};
+					azimut=-10.675919;
+					id=2;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3148.4153,28.249496,4347.6929};
+					azimut=32.960098;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="MK19_TriPod";
+					player="PLAY G";
+					leader=1;
+					skill=0.60000002;
+					text="gunner4";
+					description="Heavy Beefgunner";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3148.8003,28.121758,4354.0747};
+					azimut=36.294701;
+					special="NONE";
+					id=0;
+					side="WEST";
+					vehicle="M2HD_mini_TriPod";
+					player="PLAYER GUNNER";
+					leader=1;
+					skill=0.60000002;
+					text="gunner1";
+					description="Beefchief";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3151.1084,27.973721,4352.8164};
+					azimut=33.552601;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="M2HD_mini_TriPod";
+					player="PLAY G";
+					leader=1;
+					skill=0.60000002;
+					text="gunner2";
+					description="Beefgunner";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3145.9756,28.191727,4349.1255};
+					azimut=31.2019;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="MK19_TriPod";
+					player="PLAY G";
+					leader=1;
+					skill=0.60000002;
+					text="gunner3";
+					description="Beefgunner";
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3152.7043,27.714048,4358.1162};
+					azimut=35.336674;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="USMC_Soldier_Officer";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="cowOfficer";
+					init="cowGroup = group this;";
+				};
+			};
+			class Waypoints
+			{
+				items=7;
+				class Item0
+				{
+					position[]={3165.4128,24.260294,4373.0547};
+					speed="FULL";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={3181.949,20.237244,4384.9277};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={3275.9697,13.597704,4419.5723};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={3377.219,16.910532,4401.7271};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={3455.8809,16.941183,4410.8345};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={3538.571,21.202618,4383.4634};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={3634.5012,24.782751,4311.644};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3150.9883,27.862631,4359.7178};
+			azimut=31.2019;
+			special="NONE";
+			id=7;
+			side="EMPTY";
+			vehicle="FlagCarrierUSA";
+			leader=1;
+			skill=0.60000002;
+			text="americanFlag";
+			description="Beefgunner";
+		};
+	};
+	class Markers
+	{
+		items=10;
+		class Item0
+		{
+			position[]={3149.4102,28.081284,4355.1274};
+			name="cowSpawn1";
+			type="Empty";
+			angle=-14.663249;
+		};
+		class Item1
+		{
+			position[]={3151.6499,27.914932,4353.8823};
+			name="cowSpawn2";
+			type="Empty";
+			angle=-10.675919;
+		};
+		class Item2
+		{
+			position[]={3146.4927,28.137859,4350.0635};
+			name="cowSpawn3";
+			type="Empty";
+			angle=-10.675919;
+		};
+		class Item3
+		{
+			position[]={3148.9458,28.190998,4348.6113};
+			name="cowSpawn4";
+			type="Empty";
+			angle=-10.675919;
+		};
+		class Item4
+		{
+			position[]={3153.1716,27.589249,4358.6172};
+			name="cowSpawn0";
+			type="Empty";
+			angle=-17.20977;
+		};
+		class Item5
+		{
+			position[]={3209.8281,15.374645,4396.1733};
+			name="killzone1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			a=50;
+			b=50;
+		};
+		class Item6
+		{
+			position[]={3268.6719,13.757278,4418.4639};
+			name="killzone2";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			a=50;
+			b=50;
+		};
+		class Item7
+		{
+			position[]={3336.9705,15.837,4405.3438};
+			name="killzone3";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			a=50;
+			b=50;
+		};
+		class Item8
+		{
+			position[]={3408.0913,16.89999,4404.356};
+			name="killzone4";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			a=50;
+			b=50;
+		};
+		class Item9
+		{
+			position[]={3484.4331,16.98662,4404.6377};
+			name="killzone5";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			a=50;
+			b=50;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3633.5481,24.80859,4311.3008};
+			a=30;
+			b=30;
+			activationBy="WEST";
+			interruptable=1;
+			type="END1";
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=219747;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=9882048;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=7740085;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
